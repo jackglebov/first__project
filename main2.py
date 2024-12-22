@@ -7,7 +7,7 @@ def klava(e):
 import tkinter as tk
 win = tk.Tk()
 canvas = tk.Canvas(win,bg ="white", height=400, width=400)
-canvas.create_oval(())
+pula=canvas.create_oval((500,500),(500,500),fill="yellow")
 oval=    canvas.create_oval((0,0),(50,50),fill="red")
 canvas.pack()
 win.bind("<KeyPress>",klava)
